@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Quality pre-owned cars for sale" />
+    <title>Hot Cars — Cars For Sale</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="logo">HOT CARS</div>
+        <nav class="main-nav">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="inventory.html">Inventory</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h2>Find your next ride</h2>
+          <p class="lead">Handpicked, inspected vehicles — great value and peace of mind.</p>
+          <a class="btn" href="inventory.html">View Inventory</a>
+        </div>
+      </section>
+
+      <section class="inventory-preview container">
+        <h3>Featured Vehicles</h3>
+        <div class="grid">
+          <article class="card">
+            <div class="media"><img src="assets/car-sample.svg" alt="Car sample" /></div>
+            <div class="card-body">
+              <h4>2018 Toyota Camry</h4>
+              <p class="muted">72,000 mi · Lusaka</p>
+              <p class="price">$12,900</p>
+              <a href="cars/car-1.html" class="btn small">View Details</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="media"><img src="assets/car-sample.svg" alt="Car sample" /></div>
+            <div class="card-body">
+              <h4>2017 Honda Civic</h4>
+              <p class="muted">88,000 mi · Lusaka</p>
+              <p class="price">$11,500</p>
+              <a href="inventory.html" class="btn small">View All</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="container contact">
+        <h3>Contact / Lead Form</h3>
+        <p>Call or email us — or send a message below and we'll reply within 24 hours.</p>
+
+        <div class="contact-info">
+          <p><strong>Phone:</strong> <a href="tel:+260776046555">+260 776046555</a>, <a href="tel:+260760590527">+260 760590527</a></p>
+          <p><strong>Email:</strong> <a href="mailto:patrickyav59@gmail.com">patrickyav59@gmail.com</a></p>
+          <p><strong>Location:</strong> Lusaka, Zambia</p>
+        </div>
+
+        <form method="POST" action="https://formspree.io/f/your-form-id">
+          <label>Name
+            <input type="text" name="name" required />
+          </label>
+          <label>Email
+            <input type="email" name="email" required />
+          </label>
+          <label>Phone
+            <input type="tel" name="phone" />
+          </label>
+          <label>Message
+            <textarea name="message"></textarea>
+          </label>
+          <button class="btn" type="submit">Send Inquiry</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>© Hot Cars</small>
+      </div>
+    </footer>
+  </body>
+</html>
